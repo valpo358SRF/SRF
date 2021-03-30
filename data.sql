@@ -21,7 +21,7 @@ CREATE TABLE users (
     user_id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(30) NOT NULL,
     email VARCHAR(30) NOT NULL,
-    password VARCHAR(20) NOT NULL,
+    password TEXT NOT NULL,
     is_admin TINYINT DEFAULT 0
 );
 
